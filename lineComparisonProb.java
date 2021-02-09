@@ -1,15 +1,15 @@
 import java.util.Scanner;
 class LineComparisonProb{
    public static void main(String[] args){
-		float x1,y1,x2,y2;
-		double length;
+      float x1,y1,x2,y2;
+      double length;
 		System.out.println("Welcome to Line Comparison Problems.");
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("\n Enter x1 co-ordinate of the line.");
 		x1 = sc.nextFloat();
-      System.out.println("\n Enter y1 co-ordinate of the line.");
-      y1 = sc.nextFloat();
+		System.out.println("\n Enter y1 co-ordinate of the line.");
+     	y1 = sc.nextFloat();
 
 		System.out.println("\n Enter x2 co-ordinate of the line.");
       x2 = sc.nextFloat();
