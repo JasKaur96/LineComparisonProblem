@@ -6,15 +6,14 @@ class LineComparisonProb{
 		System.out.println("Welcome to Line Comparison Problems.");
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("\n Enter x1 co-ordinate of the line.");
+		System.out.println("\n Enter x1-y1 co-ordinates of the line.");
 		x1 = sc.nextFloat();
-		System.out.println("\n Enter y1 co-ordinate of the line.");
      	y1 = sc.nextFloat();
 
-		System.out.println("\n Enter x2 co-ordinate of the line.");
+		System.out.println("\n Enter x2-y2 co-ordinates of the line.");
       x2 = sc.nextFloat();
-      System.out.println("\n Enter y2 co-ordinate of the line.");
       y2 = sc.nextFloat();
+
       System.out.println("\n Coordinates of the line are x1="+x1+ " y1="+y1+" and x2="+x2 + " y2="+y2);
 
 		length = Math.sqrt(Math.pow((x2 - x1),2) +  Math.pow((y2 - y1),2));
