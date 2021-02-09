@@ -32,13 +32,15 @@ class LineComparisonProb{
 	length1 = Math.sqrt(Math.pow((x2 - x1),2) +  Math.pow((y2 - y1),2));
 	length2 = Math.sqrt(Math.pow((x4 - x3),2) +  Math.pow((y4 - y3),2));	
    	System.out.println("\n Length of Line1="+length1+" and Line2="+length2);
-
-      	if(length1==length2)
-		System.out.println("\n The lines are Equal. ");
-	else if (length1>length2)
-        	System.out.println("\n line1 is gretaer than line2. ");
-	else
-		System.out.println("\n Line2 is gretaer than Line1. ");	
-	
+	   	compareTo(length1,length2);
+	   
 	}
+	public static void compareTo(int length1, int length2){
+       		if(length1==length2)
+			System.out.println("\n The lines are Equal. ");
+		else if (length1>length2)
+        		System.out.println("\n line1 is gretaer than line2. ");
+		else
+			System.out.println("\n Line2 is gretaer than Line1. ");	
+	}	
 }
